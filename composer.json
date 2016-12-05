@@ -20,7 +20,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Vendor\\Package\\": "src/"
+      "Heymowski\\RolesAndPermissions\\" : "src"
     }
   },
   "minimum-stability": "dev"
