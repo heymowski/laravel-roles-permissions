@@ -76,3 +76,35 @@ class User extends Authenticatable
 
 	To test the system you have to be logged in
 	http://localhost:8000/rolesandpermissions/role
+
+### 7. Add rules to your Blades or Controllers
+	
+	@can('permission_name')
+
+		The Current User Can ...
+	
+	@endcan
+
+----------
+
+	@cannot('permission_name')
+
+		The Current User Can't ...
+
+	@endcannot
+
+----------
+
+	if (Gate::allows('permission_name')) {
+
+		The current user can ...
+
+	}
+
+----------
+
+	if (Gate::denies('permission_name')) {
+
+		The current user can't ...
+
+	}	
