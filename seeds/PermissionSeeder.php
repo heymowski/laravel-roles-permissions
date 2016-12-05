@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use Heymowski\RolesAndPermissions\Permission;
+use Heymowski\RolesAndPermissions\Models\Permission;
 
 class PermissionSeeder extends Seeder
 {
