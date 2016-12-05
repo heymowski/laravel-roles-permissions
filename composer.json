@@ -1,13 +1,13 @@
 {
-  "name": "vendor/package",
-  "description": "",
-  "keywords": [],
-  "homepage": "",
+  "name": "heymowski/laravel-roles-permissions",
+  "description": "Laravel Roles & Permission",
+  "keywords": ["Laravel","Roles","Permissions"],
+  "homepage": "https://github.com/heymowski/laravel-roles-permissions",
   "license": "MIT",
   "authors": [
     {
-      "name": "",
-      "email": ""
+      "name": "Juan José Juan Heymowski",
+      "email": "juan@heymowski.es"
     }
   ],
   "require": {
